@@ -43,7 +43,7 @@ while 1:
     # Strat receiving data from the client
     # print('Ready to serve...')
     tcpCliSock, addr = tcpSerSock.accept()
-    # print('Received a connection from:', addr)
+    print('Received a connection from:', addr)
 
     # 获取源请求
     message = tcpCliSock.recv(1024)
